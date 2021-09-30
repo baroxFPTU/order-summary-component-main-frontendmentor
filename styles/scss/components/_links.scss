@@ -1,0 +1,8 @@
+a {
+  font-weight: 700;
+  color: var(--bright-blue);
+  text-decoration: underline;
+  &:hover {
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,30 @@
+.plan {
+  display: flex;
+  justify-content: space-between;
+  padding: 17px;
+  border-radius: 15px;
+  background-color: var(--super-pale-blue);
+  width: 100%;
+  margin-bottom: 25px;
+  & > div {
+    display: flex;
+    align-items: center;
+  }
+  &__icon {
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  &__name {
+    color: var(--dark-blue);
+  }
+  &__price {
+    color: var(--desaturated-blue);
+  }
+}

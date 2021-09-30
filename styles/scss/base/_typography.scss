@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+:root {
+  --ff-body: "Red Hat Display", sans-serif;
+}
+
+body {
+  font-size: 16px;
+  font-family: var(--ff-body);
+  font-weight: 500;
+}
+
+h3 {
+  font-weight: 900;
+  font-size: 23px;
+}
+
+.text-bold {
+  font-weight: 700;
+}

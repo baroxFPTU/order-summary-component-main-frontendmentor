@@ -1,20 +1,20 @@
 $widthMobile: 425px;
 $widthTablet: 767px;
 
-@mixin responsive($device) {
-  @if $device == "mobile" {
+@mixin responsive($size) {
+  @if $size == "small" {
     @media screen and (max-width: $widthMobile) {
       @content;
     }
   }
 
-  @if $device == "tablet" {
-    @media screen and (min-width: $widthMobile) and (max-width: $widthTablet) {
+  @if $size == "medium" {
+    @media screen and (min-width: $widthMobile) {
       @content;
     }
   }
 
-  @if $device == "tablet" {
+  @if $size == "large" {
     @media screen and (min-width: $widthTablet) {
       @content;
     }

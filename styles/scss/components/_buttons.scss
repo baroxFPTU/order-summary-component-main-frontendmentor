@@ -1,0 +1,28 @@
+@use "../utils" as *;
+
+.btn {
+  background: transparent;
+  border: none;
+  outline: transparent;
+  width: 100%;
+  min-width: 280px;
+  padding: 20px;
+  font-weight: 700;
+  font-size: 15px;
+  color: var(--desaturated-blue);
+  &:hover {
+    color: var(--dark-blue);
+  }
+  &.btn-primary {
+    background: var(--bright-blue);
+    color: #fff;
+    border-radius: 15px;
+    box-shadow: 0px 11px 12px var(--pale-blue);
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+  @include responsive("small") {
+    min-width: 100%;
+  }
+}

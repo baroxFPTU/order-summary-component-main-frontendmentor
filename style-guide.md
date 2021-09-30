@@ -29,5 +29,5 @@ The designs were created to the following widths:
 ### Font
 
 - Family: [Red Hat Display](https://fonts.google.com/specimen/Red+Hat+Display)
-- @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+-
 - Weights: 500, 700, 900
