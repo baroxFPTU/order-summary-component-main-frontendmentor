@@ -4,6 +4,8 @@
   --margin-outside-card: 25px;
   --max-width-desc: 80%;
   --max-width-card: calc(100% - var(--margin-outside-card) * 2);
+  --padding-inside-card: 50px 50px 15px 50px;
+
   max-width: var(--max-width-card);
   border-radius: 15px;
   margin-left: var(--margin-outside-card);
@@ -13,7 +15,7 @@
   box-shadow: 0px 11px 20px 0px var(--card-shadow-color);
 
   &-bottom {
-    padding: 35px 25px 10px 25px;
+    padding: var(--padding-inside-card);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,5 +38,6 @@
   }
   @include responsive("small") {
     --max-width-desc: 100%;
+    --padding-inside-card: 35px 25px 10px 25px;
   }
 }
